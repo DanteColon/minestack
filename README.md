@@ -4,6 +4,8 @@ Windows desktop app for managing local Minecraft Java servers.
 
 [Download the latest public release](https://github.com/DanteColon/minestack/releases/latest)
 
+[Visit the website](https://minestack-website-client.vercel.app) · [Build a server](https://minestack-website-client.vercel.app/server-builder)
+
 ## Getting started
 
 1. Download the Windows x64 installer from the release's **Assets** section. GitHub's source-code archives are not the desktop app.
@@ -12,6 +14,12 @@ Windows desktop app for managing local Minecraft Java servers.
 4. Keep backups of your worlds. Stop the server before creating or restoring a backup.
 
 Version 1.2.7 connects directly to official server providers and Modrinth; a localhost backend is not needed. New servers default to `%APPDATA%\Minestack\servers`. Older releases may behave differently; read the notes for your version.
+
+## Free web builder
+
+Use the [web server builder](https://minestack-website-client.vercel.app/server-builder) to choose Vanilla, Paper, or Purpur, configure settings, and select compatible plugins. It generates a small ZIP of configuration files, launchers, and download scripts.
+
+Extract the ZIP and install the Java version required by your chosen Minecraft release. Running the included launcher downloads the server and plugins on first launch, so an internet connection is required. Minecraft runs on your computer using your installed Java runtime.
 
 ## Releases and verification
 
