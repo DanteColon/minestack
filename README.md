@@ -11,7 +11,7 @@ Windows desktop app for managing local Minecraft Java servers.
 3. Install and open Minestack, then import an existing server folder or create one. Review and accept the Minecraft EULA before running server software.
 4. Keep backups of your worlds. Stop the server before creating or restoring a backup.
 
-The upcoming 1.2.7 candidate connects directly to official server providers and Modrinth; a localhost backend is not needed. New servers default to `%APPDATA%\Minestack\servers`. Existing published releases may behave differently; read the notes for your version.
+Version 1.2.7 connects directly to official server providers and Modrinth; a localhost backend is not needed. New servers default to `%APPDATA%\Minestack\servers`. Older releases may behave differently; read the notes for your version.
 
 ## Releases and verification
 
